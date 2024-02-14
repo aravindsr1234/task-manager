@@ -1,0 +1,33 @@
+.mainpage_container {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 100px;
+}
+
+.mainpage_header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainpage_header button {
+    background-color: rgb(66, 143, 250);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+}
+
+.mainpage_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.mainpage_content h1 {
+    font-size: 15px;
+    margin: 0;
+}

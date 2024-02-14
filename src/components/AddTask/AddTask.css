@@ -1,0 +1,23 @@
+.add_task_modal {
+    padding: 50px;
+    position: absolute;
+    left: 36%;
+    right: 36%;
+    background-color: rgb(214 214 214);
+}
+
+.add_task_modal form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.add_task_modal_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add_task_modal_header button{
+    padding: 5px;
+    border-radius: 5px;
+}
